@@ -27,6 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Deploy
-        run: npm run deploy
+        run: npm run build
       - name: Notify
         run: echo "Deployment completed"
